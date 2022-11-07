@@ -20,21 +20,25 @@ const FooterPage = () => {
                 HOME
               </Link>
               </div>
+              <div className="footer-div">|</div>
               <div className="footer-nav-item">
               <Link activeClass="active" smooth to="about">
                 ABOUT
               </Link>
               </div>
+              <div className="footer-div">|</div>
               <div className="footer-nav-item">
               <Link activeClass="active" smooth to="projects">
                 PROJECTS
               </Link>
               </div>
+              <div className="footer-div">|</div>
               <div className="footer-nav-item">
               <Link activeClass="active" smooth to="blog">
                 BLOG
               </Link>
               </div>
+              <div className="footer-div">|</div>
               <div className="footer-nav-item">
               <Link activeClass="active" smooth to="contact">
                 CONTACT
