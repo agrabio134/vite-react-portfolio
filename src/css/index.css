@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+html {
+    scroll-behavior: smooth;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+body{
+    background-color: black;
+    color: white;
+    
+}
+body::-webkit-scrollbar {
+    display: none;
+}
+
+body {
+    -ms-overflow-style: none;  /* IE and Edge */
+    scrollbar-width: none;  /* Firefox */
+  }
+
+
+
+  
+
+
+section {
+	display: grid;
+	height: 100vh;
+	font-size: 32px;
+	font-weight: bold;
+}
+
+
+
+
+/* Home page */
+
+
+
+/* About page */
+
+
+
+
+@media (max-width: 767px) {
+    .home-container {
+      flex-direction: column;
+    }
+  }

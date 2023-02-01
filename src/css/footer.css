@@ -1,0 +1,21 @@
+.main-footer {
+    width: 100%;
+  }
+  
+  .footer-item {
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    background-color: #1a0a1a;
+  }
+  
+  .footer-item a {
+    color: #fff;
+    font-size: 20px;
+    margin: 20px;
+    text-decoration: none;
+  }
+  
+  .footer-item a:hover {
+    color: #333;
+  }
